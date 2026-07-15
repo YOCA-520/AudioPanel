@@ -4,7 +4,6 @@
 
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://python.org)
 [![Platform](https://img.shields.io/badge/Platform-Windows%2010%2F11-lightgrey.svg)]()
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 ---
 
@@ -127,7 +126,3 @@ pyinstaller AudioPanel.spec --distpath .\dist --workpath .\build
 - Windows Registry — 系统主题检测
 
 ---
-
-## 📝 License
-
-MIT © YOCA
