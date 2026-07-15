@@ -170,7 +170,7 @@ def get_panel_size() -> tuple[int, int]:
 
 
 def reset_config() -> None:
-    """恢复所有设置为默认值 (不透明, 模糊关闭)."""
+    """恢复所有设置为默认值."""
     global _config_cache
     _config_cache = dict(DEFAULT_CONFIG)
     save_config(dict(DEFAULT_CONFIG))

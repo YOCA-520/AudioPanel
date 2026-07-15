@@ -495,7 +495,7 @@ class MainPanel(QWidget):
     def _on_settings_closed(self) -> None:
         """设置关闭后同步变更."""
         cfg = load_config()
-        # 首先应用主题/透明度/模糊
+        # 应用主题和透明度
         self._apply_theme()
         # 强制重建所有卡片样式和滚动区
         for card in self._device_cards.values():
