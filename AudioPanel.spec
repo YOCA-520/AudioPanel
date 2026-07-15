@@ -23,6 +23,7 @@ exe = EXE(
     a.datas,
     [],
     name='AudioPanel',
+    icon='assets/app.ico',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
