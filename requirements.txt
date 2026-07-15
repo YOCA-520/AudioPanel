@@ -1,0 +1,11 @@
+# AudioPanel 依赖清单
+# 安装方式: pip install -r requirements.txt
+
+# Windows 音频控制 COM 接口封装
+pycaw>=20230407
+
+# Qt6 Python 绑定 (UI 框架)
+PySide6>=6.5.0
+
+# COM 类型系统 (pycaw 的底层依赖)
+comtypes>=1.2.0
